@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wodorotlenki - Chemia</title>
+    <style>
+        body {
+            font-family: 'Arial Black', sans sherif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #2C3E50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #34495E;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .main-content {
+            width: 70%;
+        }
+
+        .sidebar {
+            width: 25%;
+            background-color: #ecf0f1;
+            padding: 15px;
+        }
+
+        .sidebar h3 {
+            text-align: center;
+            color: #2C3E50;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+
+        .sidebar ul li a {
+            color: #34495E;
+            text-decoration: none;
+        }
+
+        .sidebar ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            background-color: #2C3E50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            font-size: 0.9rem;
+        }
+
+        h1, h2 {
+            color: #2980B9;
+        }
+
+        p {
+            line-height: 1.8;
+        }
+
+        .highlight {
+            font-weight: bold;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .section-title {
+            background-color: #2980B9;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        .video-links {
+            margin-top: 20px;
+        }
+
+        .video-links a {
+            color: #2980B9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .video-links a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Wodorotlenki - Chemia</h1>
+        <p>Odkryj fascynujący świat wodorotlenków i ich zastosowań w chemii!</p>
+    </header>
+
+    <nav>
+        <a href="#wodorotlenki">Wodorotlenki</a>
+        <a href="#właściwości">Właściwości</a>
+        <a href="#zastosowania">Zastosowania</a>
+        <a href="#reakcje">Reakcje</a>
+        <a href="#przykłady">Przykłady</a>
+    </nav>
+
+    <div class="content">
+
+        <div class="main-content">
+            <section id="wodorotlenki">
+                <h2>Co to są wodorotlenki?</h2>
+                <p>Wodorotlenki to związki chemiczne, które zawierają grupę hydroksylową (-OH). Są to zasady, które mogą reagować z kwasami, tworząc sole i wodę. Wodorotlenki mogą występować w postaci ciał stałych lub rozpuszczonych w wodzie, w zależności od ich właściwości. Są szeroko stosowane w przemyśle chemicznym, budowlanym, a także w wielu procesach biologicznych i medycznych.</p>
+                <p>Wodorotlenki są jednym z podstawowych typów związków chemicznych, obok kwasów i soli. Zawierają one nie tylko grupę hydroksylową, ale również mają szeroki zakres zastosowań. Na przykład wodorotlenek sodu (NaOH), popularnie znany jako soda kaustyczna, jest używany do produkcji mydeł i innych detergentów. Wodorotlenek wapnia (Ca(OH)₂) ma kluczowe znaczenie w przemyśle budowlanym, szczególnie w produkcji cementu i zapraw budowlanyczych </p>
+            </section>
+
+            <section id="właściwości" class="section-title">
+                <h2>Właściwości wodorotlenków</h2>
+                <p><strong>Wodorotlenki charakteryzują się kilkoma ważnymi właściwościami, które decydują o ich szerokim zastosowaniu:</strong></p>
+                <ul>
+                    <li>Wodorotlenki rozpuszczalne w wodzie tworzą zasady o charakterze alkalicznym. Woda staje się zasadowa, co oznacza, że zmienia kolor wskaźników pH, takich jak fenoloftaleina.</li>
+                    <li>Niektóre wodorotlenki, jak wodorotlenek sodu (NaOH), są higroskopijne, co oznacza, że łatwo pochłaniają wilgoć z powietrza, co może prowadzić do ich rozpuszczenia.</li>
+                    <li>Wodorotlenki mogą reagować z kwasami, tworząc sole i wodę. Jest to klasyczna reakcja neutralizacji, która jest fundamentalna w chemii kwasów i zasad.</li>
+                    <li>Niektóre wodorotlenki, jak wodorotlenek wapnia, rozpuszczają się w wodzie tylko częściowo, tworząc zasady o mniejszej sile. To oznacza, że nie wszystkie wodorotlenki mają taką samą zdolność do neutralizacji kwasów.</li>
+                </ul>
+            </section>
+
+            <section id="zastosowania" class="section-title">
+                <h2>Zastosowania wodorotlenków</h2>
+                <p><strong>Wodorotlenki znajdują szerokie zastosowanie w różnych dziedzinach życia i przemysłu. Oto niektóre z najważniejszych:</strong></p>
+                <ul>
+                    <li><span class="highlight">Przemysł chemiczny:</span> Wodorotlenki, takie jak NaOH, wykorzystywane są do produkcji mydeł, detergentów, papieru, a także do oczyszczania gazów przemysłowych, takich jak dwutlenek węgla.</li>
+                    <li><span class="highlight">Przemysł budowlany:</span> Wodorotlenek wapnia (Ca(OH)₂) jest używany do produkcji cementu, zapraw budowlanych oraz jako substancja chemiczna w procesach odkwaszania gleby.</li>
+                    <li><span class="highlight">Medicina:</span> Wodorotlenki są używane w różnych preparatach farmaceutycznych, np. w leczeniu chorób związanych z nadkwaśnością żołądka, jako środki zobojętniające.</li>
+                    <li><span class="highlight">Przemysł spożywczy:</span> Niektóre wodorotlenki, jak wodorotlenek sodu, stosowane są w produkcji żywności, np. przy produkcji olejów roślinnych czy też w przetwórstwie owoców i warzyw.</li>
+                </ul>
+            </section>
+
+            <section id="reakcje" class="section-title">
+                <h2>Reakcje wodorotlenków</h2>
+                <p><strong>Wodorotlenki uczestniczą w wielu ważnych reakcjach chemicznych, które mają kluczowe znaczenie w wielu procesach przemysłowych i naturalnych:</strong></p>
+                <ul>
+                    <li><span class="highlight">Reakcja z kwasami:</span> Wodorotlenki reagują z kwasami, tworząc sole i wodę. Jest to podstawowa reakcja neutralizacji, która jest używana w laboratoriach chemicznych oraz w przemyśle do produkcji różnych substancji.</li>
+                    <li><span class="highlight">Reakcja z tlenkami:</span> Wodorotlenki mogą reagować z tlenkami metali, tworząc odpowiednie sole. Na przykład wodorotlenek sodu może reagować z tlenkiem węgla, tworząc węglan sodu.</li>
+                </ul>
+            </section>
+
+            <section class="video-links">
+                <h2>Filmy o wodorotlenkach</h2>
+                <p><a href="https://youtu.be/TAYcifqfJ2Y?si=FIclymfu7su6RgZh" target="_blank">Lekcja pisatacji</a> – obejrzyj ten film na YouTube.</p>
+                <p><a href="https://www.youtube.com/live/hieS6OIHwOE?si=BPFxzwLQeV3WOFVj" target="_blank">Eksperymenty</a> – ciekawe nagranie na temat wodorotlenków.</p>
+            </section>
+
+        </div> <!-- .main-content -->
+
+        <div class="sidebar">
+            <h3>Spis treści</h3>
+            <ul>
+                <li><a href="#wodorotlenki">Co to są wodorotlenki?</a></li>
+                <li><a href="#właściwości">Właściwości wodorotlenków</a></li>
+                <li><a href="#zastosowania">Zastosowania wodorotlenków</a></li>
+                <li><a href="#reakcje">Reakcje wodorotlenków</a></li>
+            </ul>
+        </div> <!-- .sidebar -->
+
+    </div> <!-- .content -->
+
+    <footer class="footer">
+        <p>Jan Jakubaszek VIII A</p>
+    </footer>
+
+</body>
+</html>
